@@ -1,0 +1,52 @@
+- !<AssetImportMetadata/035f7879-ea53-4ea7-9de5-6d2ce62df143>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> d1baa100-dcec-416b-bc1d-b6b66d4ecf8a
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> d1baa100-dcec-416b-bc1d-b6b66d4ecf8a
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 961c0d0e-a601-4bf7-adb5-2a2c4166764f
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/961c0d0e-a601-4bf7-adb5-2a2c4166764f>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: 043ba303-eedd-4fb8-a812-d09255f48deb
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    audioComponent: false
+    audioOutput: false
+    sampleRate: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - audioOutput: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
+      audioComponent: !<reference.AudioComponent> 00000000-0000-0000-0000-000000000000
+      sampleRate: !<float> 44100.000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @input Asset.AudioTrackAsset audioOutput {"hint":"Audio Output asset (Asset Browser + > Audio Output)"}'
+    - '// @input Component.AudioComponent audioComponent {"hint":"Audio component that plays the Audio Output asset. If set, it is started looping."}'
+    - // @input float sampleRate = 44100

@@ -1,0 +1,66 @@
+- !<AssetImportMetadata/5c61d5d4-0c66-4bf1-9cd0-ec25bf7c3dc8>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> ecf6645a-7803-49e4-b2d0-8919c6bc941a
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> ecf6645a-7803-49e4-b2d0-8919c6bc941a
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 06f78fdf-082a-43cb-ad92-1ce60c0ac2ec
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/06f78fdf-082a-43cb-ad92-1ce60c0ac2ec>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: ea828fb4-d3f5-428f-b61e-c843be5adf5f
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    asciiGlyphs: false
+    cardPosition: false
+    mixPosition: false
+    mixYaw: false
+    transportCard: false
+    transportPlate: false
+    transportRoot: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - transportCard: !<MappingBased.AssignableType_1> 00000000-0000-0000-0000-000000000000
+      transportRoot: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      transportPlate: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      cardPosition: !<Vec3> {x: 0.000000, y: -4.000000, z: -75.000000}
+      asciiGlyphs: false
+      mixPosition: !<Vec3> {x: 46.000000, y: -16.000000, z: -62.000000}
+      mixYaw: -36.599998
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"label", "label":"Specs Soundize: menu + Chords card + transport wiring"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @input AssignableType_1 transportCard {"hint":"TransportCard script on the Transport Card object"}'
+    - '// @input SceneObject transportRoot {"hint":"Root object of the Transport card (hidden until the first Confirm)"}'
+    - '// @input SceneObject transportPlate {"hint":"Empty first child of the Transport card; the BackPlate goes here so it draws behind the texts"}'
+    - '// @input vec3 cardPosition = {0,-6,-80} {"hint":"Where the menu and Chords card sit, relative to this object (cm)"}'
+    - '// @input bool asciiGlyphs {"hint":"Use ASCII b # * . instead of the music glyphs, if the font lacks them"}'
+    - "// @input vec3 mixPosition = {46,-16,-62} {\"hint\":\"Where the Mix card sits (cm): to the player's right, so they turn to mix\"}"
+    - '// @input float mixYaw = -36.6 {"hint":"Mix card yaw in degrees, so it faces the player"}'

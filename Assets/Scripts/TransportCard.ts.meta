@@ -1,0 +1,61 @@
+- !<AssetImportMetadata/d703ecaf-8d17-4fc5-b80e-5c1afcf6cd91>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 2f9961c2-729f-47b2-b480-92ac11d0f55c
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 2f9961c2-729f-47b2-b480-92ac11d0f55c
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 9724f479-a644-4650-9727-f1831267870e
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/9724f479-a644-4650-9727-f1831267870e>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: 3af1796d-484e-43aa-a054-0b80f51766a2
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    barText: false
+    bassSynth: false
+    beatText: false
+    currentText: false
+    nextText: false
+    playLabel: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - bassSynth: !<MappingBased.AssignableType_1> 00000000-0000-0000-0000-000000000000
+      barText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      beatText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      currentText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      nextText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      playLabel: !<reference.Text> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input AssignableType_1 bassSynth
+    - "// @input Component.Text barText {\"hint\":\"Text: 'bar 2 of 4'\"}"
+    - "// @input Component.Text beatText {\"hint\":\"Text: beat dots, e.g. '● ○ ○ ○'\"}"
+    - '// @input Component.Text currentText {"hint":"Text: current chord, large"}'
+    - '// @input Component.Text nextText {"hint":"Text: next chord, smaller"}'
+    - '// @input Component.Text playLabel {"hint":"Text on the play/stop button"}'
